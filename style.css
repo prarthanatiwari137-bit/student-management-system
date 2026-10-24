@@ -1,0 +1,151 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #243047;
+    line-height: 1.6;
+}
+
+header {
+    background: #173b70;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.form-section,
+.records-section {
+    background: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+h2 {
+    margin-bottom: 18px;
+    color: #173b70;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccd5e2;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: 2px solid #83aef0;
+    border-color: #356ac3;
+}
+
+button {
+    padding: 10px 14px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2459a9;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.cancel-btn {
+    background: #687386;
+    margin-left: 6px;
+}
+
+#studentCount {
+    margin: 14px 0;
+    font-weight: bold;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e5ed;
+}
+
+th {
+    background: #eaf0fa;
+    color: #173b70;
+}
+
+.edit-btn {
+    background: #218653;
+    margin: 2px;
+}
+
+.delete-btn {
+    background: #c93636;
+    margin: 2px;
+}
+
+#emptyMessage {
+    color: #6b7280;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #687386;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .form-section,
+    .records-section {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
